@@ -4,7 +4,7 @@ import { setOptions } from '@storybook/addon-options'
 
 // addon-info
 setOptions({
-  name: 'Practo Order',
+  name: 'Practo Marketplace',
   goFullScreen: false,
   showStoriesPanel: true,
   showAddonPanel: true,
