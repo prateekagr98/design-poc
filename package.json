@@ -6,7 +6,8 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "dependency:check": "ndc ."
+    "dependency:check": "ndc .",
+    "run:docs": "./node_modules/.bin/docpress s"
   },
   "license": "ISC",
   "dependencies": {
@@ -31,6 +32,7 @@
     "babel-preset-react": "6.24.1",
     "babel-runtime": "6.26.0",
     "css-loader": "1.0.0",
+    "docpress": "0.7.1",
     "eslint": "5.4.0",
     "eslint-config-prettier": "3.0.1",
     "eslint-plugin-css-modules": "2.7.5",
