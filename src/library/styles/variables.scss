@@ -1,0 +1,9 @@
+@import "./variables.json";
+
+// Colors -------------------------
+
+@each $colorName, $colorValue in $colors {
+  $#{$colorName}: $colorValue;
+}
+
+// --------------------------------

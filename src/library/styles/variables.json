@@ -1,0 +1,50 @@
+{
+  "colors": {
+    "white": "#ffffff",
+    "pale-grey": "#f7f7fa",
+    "pale-grey-two": "#f0f0f5",
+    "cool-grey-two": "#b4b4be",
+    "cool-grey": "#9191a3",
+    "steel": "#787887",
+    "greyish-brown": "#4a4a4a",
+    "charcoal-grey-two": "#414146",
+    "charcoal-grey": "#2d2d32",
+    "dusk-blue": "#28328c",
+    "azure": "#1ebef0",
+    "azure-two": "#14bef0",
+    "true-green": "#00a500",
+    "black": "#000000"
+  },
+  "breakpoints": {
+    "landscape" : "only screen and (orientation : landscape)",
+    "portrait" : "only screen and (orientation : portrait)"
+  },
+  "font-family": {
+    "Benton Sans": ["'Benton Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif"],
+    "Miller Daily": ["'Miller Daily', 'Georgia', 'Times', 'Times New Roman', serif"]
+  },
+  "typography": {
+    "alpha": [64, 600, 72],
+    "beta": [48, 500, 56],
+    "gamma": [40, 500, 48],
+    "delta": [32, 500, 40],
+    "epsilon": [24, 500, 32],
+    "zeta": [20, 500, 28]
+  },
+  "button": {
+    "type" : {
+      "default": {"color": "rgba(0,0,0,.6)", "background": "#e0e1e2"},
+      "primary": {"color": "rgb(255, 255, 255)", "background": "rgb(30, 190, 240)"},
+      "success": {"color": "#fff", "background": "#21ba45"},
+      "info": {"color": "#fff", "background": "#fbbd08"},
+      "warning": {"color": "#fff", "background": "#f2711c"},
+      "error": {"color": "#fff", "background": "#db2828"}
+    },
+    "size": {
+      "large": {"font-size": "18px", "padding": "10px 80px"},
+      "normal": {"font-size": "14px", "padding": "10px 50px"},
+      "small": {"font-size": "12px", "padding": "5px 40px"},
+      "xsmall": {"font-size": "12px", "padding": "1px 30px"}
+    }
+  }
+}

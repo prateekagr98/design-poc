@@ -1,0 +1,14 @@
+@import "../variables.json";
+
+// List of all colors
+// $colors: white, pale-grey, pale-grey-two, cool-grey-two, cool-grey, steel, greyish-brown, charcoal-grey-two, charcoal-grey, dusk-blue, azure, azure-two, true-green, black;
+
+@each $colorName, $colorValue in $colors {
+  .text-#{$colorName}{
+    color: $colorValue;
+  }
+
+  .bg-#{$colorName}{
+    background-color: $colorValue;
+  }
+}

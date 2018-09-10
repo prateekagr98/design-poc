@@ -1,0 +1,11 @@
+@import "../variables.json";
+
+// font-size, font-weight, line-height
+
+@each $label, $value in $typography {
+  .heading-#{$label} {
+    font-size: #{nth($value, 1)}px;
+    font-weight: nth($value, 2);
+    line-height: nth($value, 3) / nth($value, 1);
+  }
+}
